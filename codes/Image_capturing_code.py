@@ -2,7 +2,7 @@
 """
 Created on Tue Apr 18 10:45:52 2023
 
-@author: Welcome
+@author: SushmaReenaPaulRaj
 """
 
 # importing cv2 to access OpenCV to solve the computer vision problems
@@ -91,4 +91,5 @@ while count < num_photos:
 # to free camera and allows it to be used by other processes
 cap.release()
 # to destroy all the windows created by the program to avoid leaving any windows open
+
 cv2.destroyAllWindows()
