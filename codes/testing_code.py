@@ -2,7 +2,7 @@
 """
 Created on Mon Apr 24 20:38:27 2023
 
-@author: Welcome
+@author: SushmaReenaPaulRaj
 """
 
 import torch
@@ -75,4 +75,5 @@ while True:
 
 # Clean up
 cap.release()
+
 cv2.destroyAllWindows()
