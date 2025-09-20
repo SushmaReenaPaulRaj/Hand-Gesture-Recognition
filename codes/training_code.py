@@ -2,7 +2,7 @@
 """
 Created on Thu Apr 27 11:07:36 2023
 
-@author: Welcome
+@author: SushmaReenaPaulRaj
 """
 
 import torch
@@ -285,4 +285,5 @@ visualize_model(model_ft)
 
 
 resnet_18_model = torch.jit.script(model_ft)
+
 resnet_18_model.save('resnet_18_model_best_test_loss.pt')
